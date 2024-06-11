@@ -6,7 +6,6 @@ def gcd(num1, num2):
             num2 %= num1
     return num1 or num2
 
-
 def quick_exp(val, power):
     result = pow(val, power // 2)
     result = result * result
